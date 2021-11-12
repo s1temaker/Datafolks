@@ -1,0 +1,249 @@
+@import "./fonts.css";
+
+/* main */
+
+html,
+body {
+    font: normal 18px 'DIN Pro';
+    color: #08172d;
+    background-color: #fff;
+}
+
+#wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1,
+.h1 {
+    margin-bottom: 35px;
+    font: normal 36px 'DIN Pro';
+    color: #344258;
+    letter-spacing: -0.025em;
+}
+
+@media (min-width: 992px) {
+    h1,
+    .h1 {
+        margin-bottom: 55px;
+        font: normal 46px 'DIN Pro';
+    }
+}
+
+h2,
+.h2 {
+    font: bold 24px 'DIN Pro';
+    color: #ffffff;
+}
+
+h3,
+.h3 {
+    font: bold 35px 'DIN Pro';
+}
+
+@media (min-width: 992px) {
+    h3,
+    .h3 {
+        font: bold 45px 'DIN Pro';
+    }
+}
+
+p {
+    font: normal 18px 'DIN Pro';
+    color: #08172d;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1650px;
+}
+
+.text__blue {
+    color: #3d95e3!important;
+}
+
+
+/* main */
+
+
+/* buttons */
+
+.btn {
+    position: relative;
+    padding: 1em 5em;
+    font: bold 18px/18px 'DIN Pro';
+    color: #344258;
+    letter-spacing: -0.025em;
+    border-radius: 0;
+    box-shadow: none!important;
+}
+
+.btn-primary {
+    border: 3px solid #00264c!important;
+    background-color: #fff!important;
+}
+
+.btn-primary:hover {
+    color: #fff!important;
+    background-color: #00264c!important;
+}
+
+.btn-primary:focus {
+    color: #344258;
+    background-color: #fff;
+}
+
+.btn-primary:active {
+    top: 1px;
+    left: 1px;
+}
+
+.btn-secondary {
+    padding: 1em 3.27em;
+    color: #fff;
+    border: 3px solid #fff!important;
+    background-color: transparent!important;
+}
+
+.btn-secondary:hover {
+    color: #344258!important;
+    background-color: #fff!important;
+}
+
+.btn-secondary:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-secondary:active {
+    top: 1px;
+    left: 1px;
+}
+
+
+/* buttons */
+
+
+/* forms */
+
+.form-control {
+    height: 55px;
+    padding: 17px 35px;
+    margin-bottom: 1px;
+    font: 500 15px 'DIN Pro';
+    color: #fff!important;
+    letter-spacing: -0.025em;
+    background-color: rgba(84, 102, 130, .33);
+    border: 0 none;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background-color: rgba(84, 102, 130, .2);
+    box-shadow: none;
+}
+
+textarea.form-control {
+    resize: none;
+    height: 112px;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, .84);
+}
+
+
+/* forms */
+
+
+/* cases */
+
+#cases .card {
+    overflow: hidden;
+    border: 0 none;
+    border-radius: 0;
+}
+
+#cases .card-img-overlay {
+    padding: 40px;
+    border-radius: 0;
+}
+
+#cases .card-img {
+    position: relative;
+    border-radius: 0;
+    transition: transform 300ms ease;
+}
+
+#cases .card:hover .card-img {
+    transform: scale(1.02);
+}
+
+#cases .btn-primary[aria-expanded="true"] {
+    display: none;
+}
+
+
+/* cases */
+
+
+/* footer */
+
+#footer {
+    padding: 35px 0 100px 0;
+    background-color: #0d1b2b;
+}
+
+#footer p {
+    letter-spacing: -0.025em;
+}
+
+#footer .phone__link {
+    font: 26px/38px 'DIN Pro';
+}
+
+@media (min-width: 1350px) {
+    #footer .phone__link {
+        font: 30px/40px 'DIN Pro';
+    }
+}
+
+#footer .border-left {
+    border: 0 none!important;
+}
+
+@media (min-width: 1200px) {
+    #footer .border-left {
+        border-left: 1px solid #0058a7!important;
+    }
+}
+
+#footer .form {
+    border: 5px solid rgba(84, 102, 130, .33);
+}
+
+#footer .form a.text__blue {
+    font: 500 14px 'DIN Pro';
+    letter-spacing: -0.025em;
+    text-decoration: underline;
+}
+
+#footer .form a.text__blue:hover {
+    text-decoration: none;
+}
+
+
+/* footer */
+
+
+/* caseModal */
+
+#caseModal .modal-content {
+    background-color: #0d1b2b;
+}
+
+
+/* caseModal */
